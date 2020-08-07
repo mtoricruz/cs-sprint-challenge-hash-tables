@@ -6,7 +6,6 @@ def has_negatives(a):
     for num in a:
         if (num*-1) in d and num > 0:
             result.append(num)
-    print(d)
 
     return result
 
